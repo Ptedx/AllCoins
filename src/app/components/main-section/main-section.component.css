@@ -12,12 +12,15 @@
   position: absolute;
   object-fit: cover;
   opacity: 0.4;
+  background: url('/main-photo.svg') center no-repeat;
+  background-size: cover;
 }
 .main-texts{
-  padding-top: 160px;
+  padding-top: 260px;
   z-index: 2;
   text-align: center;
   font-weight: bold;
+  opacity: 0;
 }
 .main-texts p{
   margin-top: 30px;
@@ -33,7 +36,7 @@
 @media(max-width: 768px){
   .main-texts{
     padding: 0 20px;
-    padding-top: 200px;
+    padding-top: 300px;
   }
 }
 

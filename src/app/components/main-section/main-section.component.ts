@@ -15,10 +15,10 @@ export class MainSectionComponent implements AfterViewInit{
 
     const elements = document.querySelectorAll('.animate')
 
-    gsap.from(elements,{
-        opacity: 0,
-        y: 100,
-        duration: 0.5,
+    gsap.to(elements,{
+        opacity: 1,
+        y: -100,
+        duration: 1,
         stagger: 0.3
       })
   }
