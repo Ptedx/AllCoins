@@ -13,7 +13,7 @@ export class MainSectionComponent implements AfterViewInit{
 
   ngAfterViewInit(): void {
 
-    const elements = document.querySelectorAll('h1, p, button')
+    const elements = document.querySelectorAll('.animate')
 
     gsap.from(elements,{
         opacity: 0,

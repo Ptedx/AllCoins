@@ -3,9 +3,14 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 400px;
+  padding: 120px 0;
   width: 100%;
   position: relative;
+}
+@media (max-width:768px) {
+  .call-to-action{
+    padding: 180px 0;
+  }
 }
 .call-to-action video{
   position: absolute;
@@ -13,4 +18,23 @@
   height: 100%;
   object-fit: cover;
   opacity: 0.5;
+}
+.cta{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 15px;
+  z-index: 2;
+  text-align: center;
+}
+.cta h1{
+  font-size: 40px;
+}
+.cta span{
+  font-size: 30px;
+}
+.btn-primary{
+  margin-top: 25px;
+  padding: 5px 30px;
 }
