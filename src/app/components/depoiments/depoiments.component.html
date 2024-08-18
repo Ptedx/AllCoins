@@ -1,0 +1,14 @@
+<section class="depoiments">
+  <h1 class="fade-animate" appFadeInOut>O QUE NOSSOS USUÁRIOS DIZEM</h1>
+  <div class="depoimentsBox">
+    <div class="box" *ngFor="let item of depoiments">
+      <div class="image">
+        <img src="{{item.img}}" alt="Image profile" width="100%">
+      </div>
+      <div class="text">
+        <p>{{item.text}}</p>
+        <span>{{item.name}}</span>
+      </div>
+    </div>
+  </div>
+</section>

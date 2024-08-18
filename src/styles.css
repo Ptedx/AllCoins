@@ -1,0 +1,48 @@
+/* You can add global styles to this file, and also import other style files */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+:root{
+  --background: #0A192F;
+  --highBackground: #112240;
+  --focus: #336699;
+  --green: #00FFAA;
+  --links: #007BFF;
+  --title: #FFFFFF;
+  --text: #CCCCCC;
+  --success: #00C853;
+  --fail: #FF5252;
+}
+body{
+  background-color: var(--background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  color: var(--title);
+  font-size: bold;
+}
+p, span, h1{
+  cursor: default;
+}
+.btn-primary{
+  background-color: var(--green);
+  color: black;
+  border-radius: 15px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+.btn-primary:hover{
+  border: 1px solid var(--green);
+  background-color: #00c85300;
+  color: var(--green);
+  transition: .2s ease;
+}
+

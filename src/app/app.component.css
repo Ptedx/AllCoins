@@ -1,0 +1,6 @@
+main{
+  background-color: var(--background);
+  min-height: 100vh;
+  color: var(--text);
+  max-width: 1600px;
+}

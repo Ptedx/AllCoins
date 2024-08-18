@@ -1,0 +1,27 @@
+.features{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.features-section{
+  text-align: center;
+  padding: 40px 15px;
+}
+.item{
+  width: calc(25% - 30px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.item p{
+  padding-top: 20px;
+}
+@media (max-width: 768px) {
+  .item{
+    width: calc(50% - 30px);
+  }
+}
