@@ -24,6 +24,9 @@
   }
 }
 @media (max-width: 540px) {
+  .depoimentsBox{
+    margin-top: 50px;
+  }
   p{
     font-size: 12px;
     margin-bottom: 0;
