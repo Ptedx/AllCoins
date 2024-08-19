@@ -18,9 +18,9 @@ gsap.registerPlugin(ScrollTrigger)
 export class DepoimentsComponent implements AfterViewInit, OnDestroy{
     scrollTrigger: ScrollTrigger[] = []
     depoiments:depoimentsProps[] =[
-      {img:'/profile-1.png', name:'Daniela Costa' ,text:"Finalmente encontrei uma plataforma que me deixa tranquila para investir. Agora, acompanho as cotações com segurança e faço escolhas com muito mais confiança."},
-      {img:'/profile-2.png', name: 'Augusto César', text:"Gerenciar meu portfólio de criptomoedas sempre foi complicado, mas aqui tudo ficou mais fácil. É bom sentir que estou no controle dos meus investimentos."},
-      {img:'/profile-3.png', name: 'Nicole Barreto' ,text:"Para quem está começando, essa plataforma foi como um guia no mundo das criptos. Hoje, me sinto muito mais segura e informada antes de tomar qualquer decisão."}
+      {img:'/profile-1.png', name:'Daniela Costa' ,text:"Amo essa plataforma! As cotações são super precisas e fáceis de acompanhar. Top demais!"},
+      {img:'/profile-2.png', name: 'Augusto César', text:"No começo essa plataforma foi como um guia no mundo das criptos. Hoje, me sinto muito mais seguro e informado antes de tomar qualquer decisão."},
+      {img:'/profile-3.png', name: 'Nicole Barreto' ,text:"Os alertas personalizados me salvam! Agora não perco mais nenhuma oportunidade. Valeu!"}
     ]
 
     ngAfterViewInit(){
