@@ -20,6 +20,8 @@ export class FadeInOutDirective implements AfterViewInit{
       stagger: 0.25,
       scrollTrigger: {
         trigger: this.el.nativeElement,
+        start: "top bottom",
+        end: "top center",
         scrub: 1
       }
     })

@@ -2,5 +2,6 @@ main{
   background-color: var(--background);
   min-height: 100vh;
   color: var(--text);
+  position: relative;
   max-width: 1600px;
 }
